@@ -31,7 +31,7 @@
                   </executions>
                     <configuration>
                      <force>true</force>
-                      <hostname>http://35.185.81.159</hostname>
+                      <hostname>35.185.81.159</hostname>
                       <port>9990</port>
                       <username>admin</username>
                       <password>Rajareddy431</password>
