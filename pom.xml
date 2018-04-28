@@ -16,29 +16,28 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>JenkinsWar</finalName>
   <plugins>
-  <plugin>
-      <groupId>org.wildfly.plugins</groupId>
-      <artifactId>wildfly-maven-plugin</artifactId>
-      <version>1.2.1.Final</version>
-      <executions>
-       <execution>
-          <phase>install</phase>
-          <goals>
-           <goal>redeploy</goal>
-          </goals>
-        </execution>
-      </executions>
-      <configuration>
-       <force>true</force>
-        <hostname>http://35.185.81.159</hostname>
-        <port>9990</port>
-        <username>admin</username>
-        <password>Rajareddy431</password>
-        <filename>JenkinsWar</filename>
-  </configuration>
-</plugin>
+        <plugin>
+            <groupId>org.wildfly.plugins</groupId>
+              <artifactId>wildfly-maven-plugin</artifactId>
+                <version>1.2.1.Final</version>
+                  <executions>
+                    <execution>
+                    <phase>install</phase>
+                    <goals>
+                    <goal>redeploy</goal>
+                    </goals>
+                    </execution>
+                  </executions>
+                    <configuration>
+                     <force>true</force>
+                      <hostname>http://35.185.81.159</hostname>
+                      <port>9990</port>
+                      <username>admin</username>
+                      <password>Rajareddy431</password>
+                      <filename>JenkinsWar</filename>
+                    </configuration>
+           </plugin>
   </plugins>
   
   </build>
